@@ -9,9 +9,9 @@
         <div id = "Navigation">
             <a href="index.htm">Homepage </a>
             <a href="Projects.htm">Projects </a>
-            <a href="index.htm">AboutMe </a>
+            <a href="AboutMe.htm">AboutMe </a>
         </div>
-  
+
         <div id = "content">
 
             <div id ="FlamingoHub">
@@ -24,19 +24,25 @@
                 <a href="\Projecteuler.htm">Project Euler
                 <img href="Assets/Placeholder.png" width="70%" height="20%">
                 </a>            
+
             </div>
+
              <div id ="Popcat">
                 <a href="\Popcat.htm">Cracking Popcat
                 <img href="Assets/Placeholder.png" width="70%" height="20%">
                 </a>            
             </div>
+            <div id="Rain">
+                <canvas id="Matrix" width="60%" height="60%"></canvas>
+                <script src="./ProjectRain.js"></script>
+            </div>
+      
         </div>
          
     
 
       
-        <canvas id="Matrix" width="70%" height="100%"></canvas>
-        <script src="./Rain.js"></script>
+
 </body>
 </html>
 <style>
@@ -69,6 +75,12 @@ body {
   text-align: center;
   text-decoration: none;
   overflow: hidden;
+
+}
+
+#Rain {
+    align-content: right;
+
 
 }
 a {
