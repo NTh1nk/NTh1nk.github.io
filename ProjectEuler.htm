@@ -10,6 +10,54 @@
             <a href="Projects.htm">Projects </a>
             <a href="index.htm">AboutMe </a>
         </div>
+
+
+        <div class="sidenav">
+            <a href="ProjectEuler/Pr1.js">Problem 1</a>
+            <a href="ProjectEuler/Pr2.js">Problem 2</a>
+            <a href="ProjectEuler/Pr3.js">Problem 3</a>
+            <a href="ProjectEuler/Pr4.js">Problem 4</a>
+            <a href="ProjectEuler/Pr5.js">Problem 5</a>
+            <a href="ProjectEuler/Pr6.js">Problem 6</a>
+            <a href="ProjectEuler/Pr7.js">Problem 7</a>
+            <a href="ProjectEuler/Pr8.js">Problem 8</a>
+            <a href="ProjectEuler/Pr9.js">Problem 9</a>
+            <a href="ProjectEuler/Pr10.js">Problem 10</a>
+            <a href="ProjectEuler/Pr11.js">Problem 11</a>
+            <a href="ProjectEuler/Pr12.js">Problem 12</a>
+            <a href="ProjectEuler/Pr13.js">Problem 13</a>
+            <a href="ProjectEuler/Pr14.js">Problem 14</a>
+            <a href="ProjectEuler/Pr15.js">Problem 15</a>
+            <a href="ProjectEuler/Pr16.js">Problem 16</a>
+            <a href="ProjectEuler/Pr17.js">Problem 17</a>
+            <a href="ProjectEuler/Pr18.js">Problem 18</a>
+            <a href="ProjectEuler/Pr19.js">Problem 19</a>
+            <a href="ProjectEuler/Pr20.js">Problem 20</a>
+            <a href="ProjectEuler/Pr21.js">Problem 21</a>
+            <a href="ProjectEuler/Pr22.js">Problem 22</a>
+            <a href="ProjectEuler/Pr23.js">Problem 23</a>
+            <a href="ProjectEuler/Pr24.js">Problem 24</a>
+            <a href="ProjectEuler/Pr25.js">Problem 25</a>
+
+
+
+
+          </div>
+          
+          <div class="main">
+            <h2>What is project euler?</h2>
+            <p> Project euler is a curated list of mathematics and programming problems, they can be solved with almost any programming language, i will be solving them with a mix of p5 and vanilla JS</p>
+            <p>Scroll down the page to see the result.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+          </div>
+        
   </body>
 
 </html>
@@ -29,7 +77,46 @@
     html {
     background: black;
     height: 100%;
-    overflow: hidden;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  /*color: #818181;*/
+  color: green;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 body {
