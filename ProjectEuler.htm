@@ -5,11 +5,15 @@
  
   </head>
   <body>
-        <div id = "Navigation">
-            <a href="index.htm">Homepage </a>
-            <a href="Projects.htm">Projects </a>
-            <a href="index.htm">AboutMe </a>
-        </div>
+    <div class="TopNavigation">
+      <a class="active"
+      href="index.htm">Homepage </a>
+      <a href="Projects.htm">Projects </a>
+      <a href="AboutMe.htm">AboutMe </a>        
+
+
+  </div>
+
 
 
         <div class="sidenav">
@@ -67,7 +71,8 @@
 
 <style>
            body {
-        background-color: darkslateblue;
+        background-color: black;
+        color: white;
 
     }
 
@@ -139,6 +144,35 @@ a {
     color: green;
 }
 
+
+.TopNavigation {
+    background-color: black;
+    overflow: hidden;
+}
+
+.TopNavigation a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.TopNavigation a:hover{
+background-color: #ddd;
+color: black;
+
+}
+
+
+
+.TopNavigation a.active{
+
+    background-color: #04AA6D;
+    color: white;
+}
 
     
 </style>
