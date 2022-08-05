@@ -8,30 +8,20 @@ url = 'https://stats.popcat.click/pop?pop_count=800'
 data =   { 
 
     ':path': '/pop?pop_count=800p'
-    '"Location":{"Code":"DK"}'
+    '"Location":{"Code":"KP"}'
     
-    
-
 }
 
 
-
-response = requests.post(url, data=data).text
-
-
-print(response)
-
-
-
-requests.post(url, data=data).text
+5
 
 def do_request(): 
     number = 0
-    while True:
+    for i in range(1):
         response = requests.post(url, data=data).text
         number = number + 1
-        print(number * 800)
-        
+        print(number)
+        print(response)
 threads = []
 
 for i in range(50):
@@ -44,10 +34,3 @@ for i in range(50):
 
 for i in range(50):
     threads[i].join()
-
-
-
-
-def ChooseData():
-    Poheaders.sample()
-
