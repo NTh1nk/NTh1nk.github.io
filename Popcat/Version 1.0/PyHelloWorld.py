@@ -8,12 +8,9 @@ url = 'https://stats.popcat.click/pop?pop_count=800'
 data =   { 
 
     ':path': '/pop?pop_count=800p'
-    '"Location":{"Code":"KP"}'
+    '"Location":{"Code":"PP"}'
     
 }
-
-
-5
 
 def do_request(): 
     number = 0
