@@ -388,7 +388,7 @@ declare function background(colorstring: string, a?: number): p5;
  *   number value as a second argument is not 
  *   supported, the RGBA form should be used. 
  * 
- *  
+ *   
  *   A p5.Color object can also be provided to set the 
  *   background color. 
  * 

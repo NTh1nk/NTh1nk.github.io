@@ -15,7 +15,7 @@ var getNumRoutes = function (sizeX, sizeY) {
     numRoutes[sizeX][sizeY] = routes;
 
     return routes;
-};
+};  
 
 console.log(getNumRoutes(2, 2));
 console.log(getNumRoutes(20, 20));
