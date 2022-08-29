@@ -1,18 +1,14 @@
+var ONum = 600851475143; 
+var factors = [];
+for(let i  = 0; i*i < ONum; i++){
 
-
-function setup() {
-noCanvas();
-prb3();
-
-
-
-}
-
-function prb3(){
-
-}
-function createprime(){
-
+  if (isPrime(i) == true){
+    if (ONum % i == 0){
+      factors.push(i);
+      console.log(factors);
+    }
+  }
+  
 }
 
 function isPrime(num) {

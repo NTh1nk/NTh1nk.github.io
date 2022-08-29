@@ -1,10 +1,14 @@
-
-
-    Num = 10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376
-    ListNum = Array.from(String(Num), Number);
-    Total  = 0;
-    for (let i = 0; i < ListNum.lenght ; i++){
-    Total += parseInt(ListNum[i]);
+    var num = 2**1000
+    var ListNum = Array.from(String(num), Number);
+    var Total  = 0;
+    console.log(ListNum);
+    Total = parseInt(ListNum[3]) + parseInt(ListNum[4]);
     console.log(Total);
+  
+    for (let i = 0; i > 5 ; i++){
+    Total += parseInt(ListNum[i]);
+    console.log(Total+"Is the total");
     }
   
+//  console.log(parseInt(ListNum[3]));
+ 
