@@ -3,22 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Homepage.css">
-    <title>About NTh1nk</title>
-    
-    <div class="TopNavigation">
-        
-       <a href="/index.htm">Homepage </a>
-        <a href="/Index.html">Timeline </a>   
-        <a class="active" href="/AboutMe/index.htm">AboutMe </a>   
-     
-    </div>
+    <link rel="stylesheet" type="text/css" href="Index.css">
+
+    <title>Hardware</title>
 
 </head>
 <body>
+
+    <div class="TopNavigation">
+        <a class="active"
+        href="/index.htm">Homepage </a>
+        <a href="/Index.html">Timeline </a>   
+        <a href="/AboutMe/index.htm">AboutMe </a>   
+     
+    </div>
+    
     <main>
         <section class="no-parallax">
-          <h1>NTh1nk: One man, One Mission</h1>
+          <h1>Hardware</h1>
         </section>
         <section class="parallax bg">
           <h1>                I am an amature fullstack software engineer, i have been programming for a few years now, and i have set up this website to help showcase some of my projects. Feel free to contact me for collaberation bussines and commisions      </strong>
@@ -29,20 +31,23 @@
         </section>
       </main>
 
+
+    
 </body>
 </html>
-
-
 <style>
-    body {
-  margin: 0;
+
+    
+
+
+body {
+        background-color: cyan;
+
 }
 
 
-
-
-html {
-   
+    html {
+    background: black;
     height: 100%;
     overflow: hidden;
 }
@@ -83,65 +88,4 @@ color: black;
     color: white;
 }
 
-
-main {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px;
-}
-
-section {
-  transform-style: preserve-3d;
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.no-parallax {
-  background-color: #111;
-  z-index: 999;
-}
-
-section h1 {
-  text-align: center;
-  font-size: 4rem;
-  font-family: sans-serif;
-}
-
-.parallax h1 {
-  width: 60%;
-  font-size: 2rem;
-}
-
-.parallax::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
-  z-index: -1;
-}
-
-.bg::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("507-1080x720.jpg ");
-  background-size: cover;
-}
-
-@media screen and (min-width: 768px) {
-  section h1 {
-    font-size: 8rem;
-  }
-  .parallax h1 {
-    font-size: 4rem;
-  }
-}
 </style>
-
