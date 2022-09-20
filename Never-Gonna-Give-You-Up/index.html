@@ -1,101 +1,111 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Timeline</title>
-  <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
-<link rel="stylesheet" href="./style.css">
+<html> 
+    <link rel= "stylesheet" href="Homepage.css">
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+  <head>
+    <title>Never gonna give you up Homepage</title>
+    <div class="TopNavigation">
+      <a class="active"
+      href="index.html">Homepage </a>
+      <a href="Facts.htm">Facts</a>
+      <a href="Analysis.htm">Analysis</a>
+      <a href="CulturalMovement.htm">Meme </a>
+      <a href="Timeline.html">Timeline </a>
+      <a href="BehindTheMan.htm">Behind the man </a>
+      <a href="Video.htm">Video</a>
 
-<div class="TopNavigation">
-  <a href="index.htm">Homepage </a>
-  <a href="Facts.htm">Facts</a>
-  <a href="Analysis.htm">Analysis </a>
-  <a href="CulturalMovement.htm">Meme </a>
-  <a class="active" href="index.html">Timeline </a>
-  <a href="BehindTheMan.htm">Behind the man </a>
-  <a href="Video.htm">Video</a>
 
- </div>
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<section id="timeline">
+      
+      
+    
+     </div>
   
-  <div class="tl-item">
+  </head>
+  <body>
+ <div id = "Homepage" >
+ 
+    <div id ="AboutFlamingoHub"style=float:center;>
+    <h2>  <strong>  <font size="+5">  
+        Never Gonna Give You Up </font>
+    </strong></h2>
+    <font size="+2">
+        Never Gonna Give you up sparked the phenomenon, we know today as Rick Rolling. As of 2022 Never gonna give you up reached 1 BILLION! views on youtube
+
+    </font></div>
+
     
-    <div class="tl-bg" style="background-image: url(Assets/Rickrolling-in-4K-920x595.png)"></div>
     
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">1987</p>
+      
     </div>
-
-    <div class="tl-content">
-      <h1>This is the early period of Never Gonna give you up</h1>
-      <p>The song was an instant hit throughout the 80s and 90s</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel= "stylesheet" href="ProfileCard.css">
+    <div id ="card" class="card">
+    <img src="Assets/rick-astley.png" alt="John" style="width:100%">
+            
+     <p> Fact of the day:</p>
     </div>
+    <main>
+        <section class="no-parallax">
+          <h1>Rick Astleys albums:</h1>
+        </section>
+        <section class="parallax bg">
+          <h1>
+        
+            <a href="https://en.wikipedia.org/wiki/Whenever_You_Need_Somebody">Whenever you need somebody</a>
+          </h1>
+            <h1>
+            <a href="https://en.wikipedia.org/wiki/Hold_Me_in_Your_Arms_(album)">Hold Me in Your Arms </a>
+          </h1>
+          <h1>
+            <a href="">Free</a>
+          </h1>
+           <h1>
+            <a href="">Body and Soul</a>
+          </h1>
+          <h1>
+            <a href="">Portrait</a>
+          </h1>
+         
+        </font>
+        </section>
+        <section class="no-parallax">
+          <h1></h1>
+        </section>
+      </main>  
+  </body>
+  <script>
+ document.getElementById("card").innerHTML += ChooseFromList();
+    function ChooseFromList () {
+        const flamingolist = [
 
-  </div>
+        "The song was written and produced by Rick Astley.",
+        " It was released in 1987 as Astley's debut single and was a huge hit, reaching number one in 16 countries.",
+        "The song is known for its catchy hook and Astley's distinctive vocal style."
+        ]
 
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image: url(Assets/2010v3.png)"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">1994</p>
-    </div>
+        return flamingolist[getRndInteger(0,flamingolist.length)];
+        
+        
 
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">late 90s</h1>
-      <p>This is the dark era of never gonna give you up. In 2004 Rick retired from the music industry, finding the bussines side of it too demanding</p>
-    </div>
+    }
+    function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min) ) + min;
+    }
 
-  </div>
 
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image: url(Assets/Rick2010.jpg)"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2005-2008</p>
-    </div>
+  </script>
 
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Era of Hype</h1>
-      <p>This is the golden age of rickrolling, this is really where rick rolling kicked of</p>
-    </div>
-
-  </div>
-
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image: url(Assets/500x500.jpg)"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2019</p>
-    </div>
-
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">The Fallout</h1>
-      <p>Today the hype of rickroll has fallen a bit, but the meme persists</p>
-    </div>
-
-  </div>
-</section>
-<!-- partial -->
   
-</body>
 </html>
-<style>
 
-  
-.TopNavigation {
+<style>
+  .TopNavigation {
     background-color: black;
     overflow: hidden;
+    font-family: 'GFS Didot';
+    
 }
-body{
-  font-family: 'GFS Didot';
-}
+
 .TopNavigation a{
     float: left;
     color: #f2f2f2;
@@ -119,4 +129,74 @@ color: black;
     background-color: #04AA6D;
     color: white;
 }
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+section {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.no-parallax {
+  background-color: gray;
+  z-index: 999;
+  color: black;
+  height: 40vh;
+}
+
+section h1 {
+  text-align: center;
+  font-size: small;
+  font-family: 'GFS Didot';
+}
+
+.parallax h1 {
+  width: 60%;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+body{
+  font-family: 'GFS Didot';
+}
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Assets/500x500.jpg");
+  background-size: cover;
+}
+h2{
+  align-self: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  section h1 {
+    font-size: xx-large;
+  }
+  
+  .parallax h1 {
+    font-size: xx-large;
+  }
+}
+
 </style>
