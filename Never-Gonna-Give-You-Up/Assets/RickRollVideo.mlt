@@ -1,0 +1,331 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.8.0" title="Shotcut version 22.06.23" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:03:35.600">
+    <property name="length">00:03:35.640</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:03:35.600"/>
+  </playlist>
+  <chain id="chain0" out="00:03:32.040">
+    <property name="length">00:03:32.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">eca0eada6003992729b42d706eeb8ab1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:03:32.040">
+    <property name="length">00:03:32.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">eca0eada6003992729b42d706eeb8ab1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:01:02.440" out="00:01:20.960">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-57.6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain2" out="00:03:32.040">
+    <property name="length">00:03:32.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">eca0eada6003992729b42d706eeb8ab1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" in="00:01:21.000" out="00:01:32.360">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30.6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain3" out="00:03:32.040">
+    <property name="length">00:03:32.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">eca0eada6003992729b42d706eeb8ab1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" in="00:01:32.400" out="00:01:32.960">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30.6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain4" out="00:03:32.040">
+    <property name="length">00:03:32.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">eca0eada6003992729b42d706eeb8ab1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter3" in="00:01:33.000" out="00:01:39.320">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30.6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain5" out="00:03:32.040">
+    <property name="length">00:03:32.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">eca0eada6003992729b42d706eeb8ab1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" in="00:01:39.360" out="00:02:05.880">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-30.6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain6" out="00:03:32.040">
+    <property name="length">00:03:32.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">eca0eada6003992729b42d706eeb8ab1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video_720p.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter5" in="00:02:05.920" out="00:03:32.040">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:03.560"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:01:02.400"/>
+    <entry producer="chain1" in="00:01:02.440" out="00:01:20.960"/>
+    <entry producer="chain2" in="00:01:21.000" out="00:01:32.360"/>
+    <entry producer="chain3" in="00:01:32.400" out="00:01:32.960"/>
+    <entry producer="chain4" in="00:01:33.000" out="00:01:39.320"/>
+    <entry producer="chain5" in="00:01:39.360" out="00:02:05.880"/>
+    <entry producer="chain6" in="00:02:05.920" out="00:03:32.040"/>
+  </playlist>
+  <chain id="chain7" out="00:01:12.560">
+    <property name="length">00:01:12.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">Red Sox get Rick Roll'd by Padres [Full Clip] [HD].mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">21dc969775e9d368afbca20b36aea25a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Red Sox get Rick Roll'd by Padres [Full Clip] [HD].mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain8" out="00:01:57.480">
+    <property name="length">00:01:57.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">Big Ben's Final Rick Roll.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">f1beaa31de6c396033c2c5abc104f06c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Big Ben's Final Rick Roll.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain9" out="00:09:55.160">
+    <property name="length">00:09:55.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">Quackity gets Rickrolled 8 TIMES in A Row on Stream by Media SHARE!.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2cbc6dfd173a1288870f8e011f3f79a9</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Quackity gets Rickrolled 8 TIMES in A Row on Stream by Media SHARE!.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" in="00:00:15.040" out="00:00:33.640">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">2.9</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain10" out="00:00:55.880">
+    <property name="length">00:00:55.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - Ralph Breaks the Internet PostCredits Scene Full HD_1080p (1).mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">522e93aab7f2327dccff49a2dc9e8f0b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - Ralph Breaks the Internet PostCredits Scene Full HD_1080p (1).mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter7" out="00:00:18.520">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain11" out="00:05:33.080">
+    <property name="length">00:05:33.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">Rick Roll Compilation.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">c882f21accce9063f9fa953582714921</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Rick Roll Compilation.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain12" out="00:05:33.080">
+    <property name="length">00:05:33.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">Rick Roll Compilation.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">c882f21accce9063f9fa953582714921</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Rick Roll Compilation.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain13" out="00:00:33.480">
+    <property name="length">00:00:33.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">Deadliest self defence move.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">c9e4c6384c46012a75f4eeaf85743bf5</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Deadliest self defence move.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain14" out="00:03:15.720">
+    <property name="length">00:03:15.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">y2mate.com - I hacked and rickrolled my entire high school district_1080p.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">040273bf8a60291e098d8b2990f17c26</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">y2mate.com - I hacked and rickrolled my entire high school district_1080p.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain7" in="00:00:25.120" out="00:00:48.120"/>
+    <entry producer="chain8" in="00:00:37.400" out="00:01:01.680"/>
+    <entry producer="chain9" in="00:00:15.040" out="00:00:33.640"/>
+    <entry producer="chain10" in="00:00:00.000" out="00:00:18.520"/>
+    <entry producer="chain11" in="00:04:38.040" out="00:04:49.400"/>
+    <entry producer="chain12" in="00:04:49.440" out="00:04:49.440"/>
+    <entry producer="chain13" in="00:00:00.000" out="00:00:33.480"/>
+    <entry producer="chain14" in="00:01:28.160" out="00:01:56.920"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.06.23" in="00:00:00.000" out="00:03:35.600">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="video"/>
+    <track producer="playlist1"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>

@@ -1,0 +1,87 @@
+#Navigation {
+    background-color:gray; 
+    color:white; 
+    height: 20%;
+    width: 100%;
+    border: 3px solid black ;
+    text-align: center;
+    outline: none;
+    top: 20px;
+    align-self: top;
+   text-decoration: none;
+   
+}
+
+#AboutFlamingoHub {
+
+  background-color: gray;    border-top: 20%;
+    height: 80%;  
+    width: 80%;   
+    text-align: center;  
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+#FlamingoMerch {
+
+    align-items: left top;
+
+}
+
+#Homepage {
+  background-color: gray;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:  white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  
+
+body { 
+
+     
+    background-color: gray;
+}
+
+.card {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  align-items: left;
+}
+

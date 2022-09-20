@@ -1,0 +1,38 @@
+#Navigation {
+    background-color:gray; 
+    color:white; 
+    height: 20%;
+    width: 100%;
+    border: 3px solid black ;
+    text-align: center;
+    outline: none;
+    top: 20px;
+    align-self: top;
+   text-decoration: none;
+}
+   
+
+body { 
+
+    background-color: gray;    border-top: 20%;
+    font-family: 'GFS Didot';
+}
+
+h2 {
+
+    top: 40px;
+}
+h3 {   
+    align-self: right;
+
+
+
+}
+
+
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
