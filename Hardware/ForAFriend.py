@@ -1,4 +1,4 @@
-
+from microbit import *
 
 import time
 
@@ -14,7 +14,8 @@ def Main():
             break
     time.sleep(3600)#Ja det er antallet af secunder i en time
 
-basic.forever(Main)#Kører coden
+while True:
+    Main()
             
     
 
